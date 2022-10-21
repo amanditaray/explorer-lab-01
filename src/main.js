@@ -41,7 +41,7 @@ const expirationDatePattern = {
     },
     YY: {
       mask: IMask.MaskedRange,
-      from: String(new Date().getFullYear() + 10).slice(2),
+      from: String(new Date().getFullYear()).slice(2),
       to: String(new Date().getFullYear() + 10).slice(2),
     },
   },
